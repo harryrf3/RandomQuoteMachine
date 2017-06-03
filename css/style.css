@@ -1,0 +1,17 @@
+body {
+  background-color: #666;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#quoteContainer {
+  background-color: #999;
+  max-height: 600px;
+  max-width: 600px;
+  margin-top: 200px;
+}
+
+#quoteContainer p {
+  text-align: center;
+  margin: 40px;
+}
