@@ -8,11 +8,21 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/quote.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- External Links
   # Bootstrap 3.3.7
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   # Font Awesome 4.7.0
   <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  # Bootstrap 3.3.7 JS
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  # jQuery 3.2.1
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  # jQueryUI 1.11.2
+  <script src="https//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
   -->
 </head>
 
@@ -21,21 +31,23 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-3" id="quoteContainer">
-        <p>The difference between 'involvement' and 'commitment' is like an eggs-and-ham breakfast: the chicken was 'involved' the pig was 'committed'.</p>
-        <div class="row">
-          <div class="col-xs-4">
-            <button class="btn btn-primary"><i class="fa fa-twitter"></i></button>
+        <p id="newQuote"></p>
+        <div class="row" id="buttonContainer">
+          <div class="col-xs-2">
+            <a class="btn btn-default button" id="quoteSocial" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="col-xs-3 col-xs-offset-7">
+            <button role="button" class="btn btn-default button" id="quoteButton">New Quote</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="xs-col-12">
+        <p class="info"><a href="https://github.com/harryrf" target="_blank">by harryrf3</a></p>
+      </div>
+    </div>
   </div>
-
-
-  <script src="js/bootstrap.min.js"></script>
-  <!-- External Bootstrap 3.3.7 JS
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  -->
 
 </body>
 
