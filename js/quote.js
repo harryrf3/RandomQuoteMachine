@@ -19,16 +19,20 @@ $(document).ready( function() {
 
         var randomColor = colors[Math.floor(Math.random() * colors.length)];
         
+        $("#newQuote").animate({
+          color: "#eee"
+        }, 2);
+        
         $("html body").animate({
           backgroundColor: randomColor
         });
         
-        $("#newQuote").animate({
-          color: randomColor
-        }, 1000);
-        
         $(".button").animate({
           backgroundColor: randomColor
+        }, 1000);
+        
+        $("#newQuote").animate({
+          color: randomColor
         }, 1000);
         
       }

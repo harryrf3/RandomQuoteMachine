@@ -27,6 +27,9 @@ body {
   border: none;
 }
 
+.btn a:selected {
+  border: none;
+}
 .info {
   text-align: center;
   margin-top: 20px;
