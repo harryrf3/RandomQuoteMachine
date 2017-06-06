@@ -1,13 +1,23 @@
+@media screen and (max-width: 767px) {
+  #quoteContainer {
+    margin-top: 50px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #quoteContainer {
+    margin-top: 150px !important;
+  }
+}
+
 body {
+  margin: 0px;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
 
 #quoteContainer {
   background-color: #eee;
-  max-height: 600px;
-  max-width: 600px;
-  margin-top: 200px;
   border-radius: 3px;
 }
 
@@ -27,8 +37,9 @@ body {
   border: none;
 }
 
-.btn:focus,.btn:active {
-   outline: none !important;
+.btn:focus,
+.btn:active {
+  outline: none !important;
 }
 
 .info {
